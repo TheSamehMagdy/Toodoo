@@ -32,6 +32,9 @@ input[type="text"] {
 
 input[type="text"]:focus {
 	background: white;
+	outline: none;
+	border: solid 3px #2980b9;
+	color: #2980b9;
 }
 
 ul {
@@ -64,7 +67,7 @@ li span {
 	opacity: 0;
 	height: 40px;
 	text-align: center;
-	margin-right: 5px;
+	margin-right: 20px;
 	display: inline-block;
 	transition: 0.2s linear;
 }
