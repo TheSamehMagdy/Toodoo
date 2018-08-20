@@ -18,7 +18,19 @@ h1 {
 	text-transform: uppercase;
 	line-height: 100%
 }
-
+input[type="text"] {
+	width: 100%;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin: 0;
+	background: #f7f7f7;
+	color: #75757e;
+	border: none;
+	font-size: 24px;
+}
+input[type="text"]:focus {
+	background: white;
+}
 ul {
 	list-style: none;
 }
