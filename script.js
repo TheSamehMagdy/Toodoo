@@ -18,7 +18,11 @@ $("input[type=text]").on("keypress", function(event){
 		//Clear the input
 		$(this).val("");
 		//Add new todo
-		$("ul").append('<li><span><i class="fas fa-trash"></i></span> ' + newTodo + '</li>');
+		$("ul").append("<li><span><i class='fas fa-trash'></i></span> " + newTodo + "</li>");
 	};
 })
 
+//Toggle input when plus sign is clicked
+$("#inputToggle").on("click", function() {
+	$("input[type=text]").fadeToggle();
+});

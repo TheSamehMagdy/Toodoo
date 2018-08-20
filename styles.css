@@ -17,7 +17,6 @@ h1 {
 	font-weight: normal;
 	font-size: 24px;
 	text-transform: uppercase;
-	line-height: 100%
 }
 input[type="text"] {
 	width: 100%;
@@ -28,6 +27,7 @@ input[type="text"] {
 	color: #75757e;
 	border: none;
 	font-size: 24px;
+	display: none;
 }
 
 input[type="text"]:focus {
@@ -71,4 +71,7 @@ li span {
 li:hover span {
 	width: 40px;
 	opacity: 1;
+}
+.fa-plus {
+	float: right;
 }
