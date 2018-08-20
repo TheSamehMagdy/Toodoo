@@ -44,9 +44,8 @@ li {
 	background: white;
 	font-size: 18px;
 	height: 40px;
-	line-height: 20px;
-	width: 320px;
-	padding: 10px 20px;
+	line-height: 40px;
+	width: 100%;
 	color: #666;
 }
 
@@ -58,12 +57,12 @@ li:nth-child(2) {
 	color: gray;
 	text-decoration: line-through;
 }
-
-.fa-trash {
+li span {
 	background: #e74c3c;
 	color: white;
-	width: 20px;
-	height: 20px;
-	padding: 8px 10px;
+	width: 40px;
+	height: 40px;
 	text-align: center;
+	margin-right: 5px;
+	display: inline-block;
 }
