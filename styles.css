@@ -26,7 +26,7 @@ input[type="text"] {
 	background: #f7f7f7;
 	color: #75757e;
 	border: none;
-	font-size: 24px;
+	font-size: 20px;
 	display: none;
 }
 
@@ -76,5 +76,8 @@ li:hover span {
 	opacity: 1;
 }
 .fa-plus {
+	float: right;
+}
+.reorder {
 	float: right;
 }
