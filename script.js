@@ -18,7 +18,7 @@ $("input[type=text]").on("keypress", function(event){
 		//Clear the input
 		$(this).val("");
 		//Add new todo
-		$("ul").append("<li><span>X</span> " + newTodo + "</li>");
+		$("ul").append('<li><span><i class="fas fa-trash"></i></span> ' + newTodo + '</li>');
 	};
 })
 
