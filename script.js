@@ -11,7 +11,6 @@ $("ul").on("click", "li span", function(event){
 	})
 });
 
-
 //Get input value when Enter is pressed
 $("input[type=text]").on("keypress", function(event){
 	if(event.which === 13) {
@@ -21,5 +20,5 @@ $("input[type=text]").on("keypress", function(event){
 		//Add new todo
 		$("ul").append("<li><span>X</span> " + newTodo + "</li>");
 	};
-
 })
+
