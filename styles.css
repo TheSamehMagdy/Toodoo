@@ -29,14 +29,17 @@ input[type="text"] {
 	border: none;
 	font-size: 24px;
 }
+
 input[type="text"]:focus {
 	background: white;
 }
+
 ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
+
 li {
 	background: white;
 	font-size: 18px;
@@ -47,10 +50,22 @@ li {
 	box-sizing: border-box;
 	color: #666;
 }
+
 li:nth-child(2) {
 	background: #f7f7f7;
 }
+
 .completed {
 	color: gray;
 	text-decoration: line-through;
+}
+
+.fa-trash {
+	background: #e74c3c;
+	color: white;
+	width: 20px;
+	height: 20px;
+	padding: 8px 10px;
+
+	text-align: center;
 }
