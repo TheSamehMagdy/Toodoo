@@ -26,3 +26,8 @@ $("input[type=text]").on("keypress", function(event){
 $("#inputToggle").on("click", function() {
 	$("input[type=text]").fadeToggle();
 });
+
+//Show help when help icon is clicked
+$("#helpIcon").on("click", function() {
+	$("#help").fadeToggle();
+})
