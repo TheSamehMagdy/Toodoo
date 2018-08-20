@@ -2,6 +2,7 @@
 $("ul").on("click", "li", function(){
 	$(this).toggleClass("completed");
 });
+
 //Click X to delete todo
 $("ul").on("click", "li span", function(event){
 	event.stopPropagation();
@@ -9,3 +10,16 @@ $("ul").on("click", "li span", function(event){
 		$(this).remove();
 	})
 });
+
+
+//Get input value when Enter is pressed
+$("input[type=text]").on("keypress", function(event){
+	if(event.which === 13) {
+		var newTodo = $(this).val();
+		//Clear the input
+		$(this).val("");
+		//Add new todo
+		$("ul").append("<li><span>X</span> " + newTodo + "</li>");
+	};
+
+})
