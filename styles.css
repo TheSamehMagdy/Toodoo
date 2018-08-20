@@ -3,3 +3,10 @@
 	margin: 0 auto;
 	text-align: center;
 }
+ul {
+	list-style: none;
+}
+.completed {
+	color: gray;
+	text-decoration: line-through;
+}
