@@ -52,7 +52,7 @@ li {
 	color: #666;
 }
 
-li:nth-child(2) {
+li:nth-child(2n) {
 	background: #f7f7f7;
 }
 
