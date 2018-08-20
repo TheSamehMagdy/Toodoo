@@ -5,10 +5,12 @@ body {
 	background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	font-family: "Roboto";
 }
+
 #container {
 	width: 360px;
 	margin: 100px auto;
 }
+
 h1 {
 	background: #2980b9;
 	color: white;
@@ -18,6 +20,7 @@ h1 {
 	font-size: 24px;
 	text-transform: uppercase;
 }
+
 input[type="text"] {
 	width: 100%;
 	padding: 10px 20px;
@@ -60,6 +63,7 @@ li:nth-child(2n) {
 	color: gray;
 	text-decoration: line-through;
 }
+
 li span {
 	background: #e74c3c;
 	color: white;
@@ -71,13 +75,12 @@ li span {
 	display: inline-block;
 	transition: 0.2s linear;
 }
+
 li:hover span {
 	width: 40px;
 	opacity: 1;
 }
+
 .fa-plus {
-	float: right;
-}
-.reorder {
 	float: right;
 }
