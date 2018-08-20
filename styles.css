@@ -99,3 +99,10 @@ li:hover span {
 	padding: 20px;
 	display: none;
 }
+
+.error {
+	padding: 10px;
+	width: 100%;
+	height: 60px;
+	box-sizing: border-box;
+}

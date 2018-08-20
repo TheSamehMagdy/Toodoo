@@ -14,11 +14,16 @@ $("ul").on("click", "li span", function(event){
 //Get input value when Enter is pressed
 $("input[type=text]").on("keypress", function(event){
 	if(event.which === 13) {
-		var newTodo = $(this).val();
-		//Clear the input
-		$(this).val("");
-		//Add new todo
-		$("ul").append("<li><span><i class='fas fa-trash'></i></span> " + newTodo + "</li>");
+		if ($(this).val() === "") {
+			$("ul").append("<li class='error'>Please type some text.</li>");
+		} else {
+			$(".error").remove();
+			var newTodo = $(this).val();
+			//Clear the input
+			$(this).val("");
+			//Add new todo
+			$("ul").append("<li><span><i class='fas fa-trash'></i></span> " + newTodo + "</li>");
+	}
 	};
 })
 
